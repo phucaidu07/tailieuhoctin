@@ -6,6 +6,11 @@
 	<title></title>
 </head>
 <body>
-
+	<div>
+		<h1>trang web và html </h1> 
+		<p> đây là dòng đầu tiên</p>
+		<hr>
+		<p>đây là dòng cuối cùng </p>
+	</div>
 </body>
 </html>
