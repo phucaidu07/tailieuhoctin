@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trang web cơ bản</title>
+</head>
+<body>
+
+    <h2>Trang web Tin học 12</h2>
+
+    <!-- Chèn ảnh -->
+    <h3>Ảnh minh họa</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
+         alt="Ảnh minh họa" width="200"><br>
+
+    <!-- Chèn video -->
+    <h3>Video minh họa</h3>
+    <video width="300" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video><br>
+
+    <!-- Khung nội tuyến (iframe) -->
+    <h3>Khung nội tuyến</h3>
+    <iframe src="phudeptrai.html" width="400" height="300"></iframe><br>
+
+    <!-- Liên kết -->
+    <h3>Liên kết</h3>
+    <a href="https://www.youtube.com">Mở youtube</a><br>
+</body>
+</html>
