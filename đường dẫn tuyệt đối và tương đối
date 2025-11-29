@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Đường dẫn tuyệt đối và tương đối</title>
+</head>
+<body>
+    <h2>Thực hành đường dẫn</h2>
+
+    <!-- Đường dẫn tương đối -->
+    <h3>Đường dẫn tương đối</h3>
+    <!-- File cùng thư mục -->
+    <a href="about.html">Trang About (tương đối)</a><br>
+    <!-- File trong thư mục con -->
+    <a href="folder/page.html">Trang Page trong folder (tương đối)</a><br>
+    <!-- Hình ảnh trong thư mục con -->
+    <img src="images/logo.png" alt="Logo" width="100"><br>
+    <!-- Quay lên thư mục cha (nếu cần) -->
+    <a href="../index.html">Quay về (tương đối)</a><br>
+
+    <!-- Đường dẫn tuyệt đối -->
+    <h3>Đường dẫn tuyệt đối</h3>
+    <!-- File trên máy tính -->
+    <a href="C:/Users/Phu/Documents/TrangWeb/about.html">Trang About (tuyệt đối)</a><br>
+    <!-- File trên web -->
+    <a href="https://www.google.com">Mở Google (tuyệt đối)</a><br>
+    <!-- Hình ảnh từ URL web -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
+         alt="Hình từ web" width="100">
+
+</body>
+</html>
+  khi dùng nhớ xóa mấy cái chú thích nha ( màu xám á)
