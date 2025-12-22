@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông tin món ăn</title>
+</head>
+<body>
+
+    <h2>Thông tin món ăn</h2>
+ <fieldset><legend>Thông tin</legend>
+    <form>
+            <fieldset><legend>Món ăn</legend>
+        <label for="monan">Tên món ăn:</label>
+        <input type="text" id="monan" name="monan">
+        <br><br>
+        <label for="dongia">Đơn giá:</label>
+        <input type="number" id="dongia" name="dongia">
+        <br><br>
+        <label for="soluong">Số lượng:</label>
+        <input type="number" id="soluong" name="soluong">
+       <select id=" soluong" name="soluong"> 
+            <option value="sgk"> 1</option>
+            <option value="sgk">2</option>
+            <option value="sgk">3</option>
+        </select><br><br>
+        <br><br>
+    </fieldset>
+    <fieldset><legend>thông tin</legend>
+        <label for="id1">ho va ten</label>
+        <input type="text" name="hoten"><br>
+        <select id=" loaisach" name="sach"> 
+            <option value="sgk">sách giáo khoa </option>
+            <option value="sgk">sách tham khảo </option>
+            <option value="sgk">sách giáo ôn </option>
+        </select><br><br>
+        <label for="diachi">diachi:</label>
+        <textarea id="dc" name="dc" rows="2" cols="30"></textarea><br>
+
+        <input type="submit" value="Gửi thông tin">
+    </fieldset>
+    </fieldset>
+    </form>
+
+</body>
+</html>
+    
