@@ -32,3 +32,24 @@
     <p>Dòng 4</p>
 </body>
 </html>
+| Code                                                                                  | Ý nghĩa                                                                                                                   |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `margin: 0;`                                                                          | Xóa khoảng trắng mặc định bên ngoài nội dung.                                                                             |
+| `padding: 0;`                                                                         | Xóa khoảng trắng bên trong.                                                                                               |
+| `font-family: Arial;`                                                                 | Chọn kiểu chữ Arial cho trang.                                                                                            |
+| `background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);` | Tạo nền dạng dải màu gradient theo hướng **ngang 90°** từ đỏ → tím (7 màu cầu vồng).                                      |
+| `background-size: 400% 400%;`                                                         | Phóng to gradient gấp 4 lần để có khoảng chuyển màu mượt hơn.                                                             |
+| `animation: rainbow 6s infinite alternate;`                                           | Gọi hiệu ứng `rainbow` chạy trong **6 giây**, lặp `infinite` (vô hạn), và `alternate` tức là chạy tới rồi chạy ngược lại. |
+
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+@keyframes: Tạo ra hiệu ứng chuyển động.
+
+rainbow: Tên animation (trùng với tên gọi ở trên).
+| Giai đoạn                                 | Ý nghĩa                             |
+| ----------------------------------------- | ----------------------------------- |
+| `0% { background-position: 0% 50%; }`     | Gradient bắt đầu từ vị trí bên trái |
+| `100% { background-position: 100% 50%; }` | Gradient chạy sang bên phải         |
