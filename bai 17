@@ -16,18 +16,14 @@
             text-align: right;
         }
 
-        nav ul {
-            list-style: none;
-        }
-
-        nav li {
+        li {
             display: inline;
             padding: 5px;
             background-color: lime;
         }
 
-        nav a:hover {
-            color: red;
+        a:hover {
+            color: red; background-color: cyan;
         }
         h2 + p {
             color: red;
