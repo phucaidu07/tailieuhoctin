@@ -60,12 +60,12 @@
     <p class="xemlogo">Xem logo của HTML.</p>
     <img src="html5.png" alt="Logo HTML">
     <p>
-        Link xem thêm chi tiết về HTML tại đây
-        (https://en.wikipedia.org/wiki/HTML).
+        Link xem thêm chi tiết về HTML tại đây :
+       <a href="https://en.wikipedia.org/wiki/HTML" >(https://en.wikipedia.org/wiki/HTML)</a>
     </p>
     <p>
-        Link xem và tự học HTML tại đây
-        (https://www.w3schools.com/html/default.asp).
+        Link xem và tự học HTML tại đây :
+       <a href="https://www.w3schools.com/html/default.asp."> (https://www.w3schools.com/html/default.asp). </a>
     </p>
     <h2 id="css">CSS là gì</h2>
     <p>
@@ -79,13 +79,13 @@
     <img src="css3.png" alt="Logo CSS">
 
     <p>
-        Link xem thêm chi tiết về CSS tại đây
-        (https://en.wikipedia.org/wiki/CSS).
+        Link xem thêm chi tiết về CSS tại đây:
+        <a href="https://en.wikipedia.org/wiki/CSS.">(https://en.wikipedia.org/wiki/CSS). </a>
     </p>
 
     <p>
-        Link xem và tự học CSS tại đây
-        (https://www.w3schools.com/css/default.asp).
+        Link xem và tự học CSS tại đây:
+        <a href=" https://www.w3schools.com/css/default.asp.">(https://www.w3schools.com/css/default.asp).</a>
     </p>
 
 </body>
