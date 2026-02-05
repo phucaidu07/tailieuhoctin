@@ -3,111 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Giới thiệu HTML và CSS</title>
-
     <style>
         h1 {
             color: red;
             text-align: center;
         }
-
-        h2 {
-            color: blue;
-        }
-
-        nav {
-            text-align: right;
-        }
-
-        li {
-            display: inline;
-            border: 1px solid blue;
-            padding: 5px;
-            background-color: lime;
-        }
-
-        a:hover {
-            color: red;
-            background-color: cyan;
-        }
-
-        h2 + p {
-            color: red;
-        }
-
-        img {
-            display: none;
-        }
-
-        .img:active + img {
-            display: block;
-        }
-    </style>
-</head>
-
-<body>
-
-    <h1>Giới thiệu HTML và CSS</h1>
-
-    <!-- Thanh liên kết -->
-    <nav>
-        <ul>
-            <li><a href="#P1">Giới thiệu HTML</a></li>
-            <li><a href="#P2">Giới thiệu CSS</a></li>
-        </ul>
-    </nav>
-
-    <!-- HTML -->
-    <h2 id="P1">HTML là gì</h2>
-    <p>
-        <b>HTML</b> – tên viết tắt của HyperText Markup Language, ngôn ngữ đánh dấu siêu văn bản,
-        là ngôn ngữ đặc biệt dùng để thiết kế nội dung các trang web và được thể hiện bằng trình duyệt.
-    </p>
-
-    <p>
-        HTML do nhà khoa học Tim Berners-Lee thiết lập vào những năm 1990 của thế kỉ trước.
-        HTML được thiết lập gắn liền một số công nghệ khác như CSS (mẫu định dạng CSS)
-        và ngôn ngữ lập trình Javascript.
-    </p>
-
-    <p class="img">Xem logo của HTML.</p>
-    <img src="html5.png" alt="Logo HTML">
-
-    <!-- CSS -->
-    <h2 id="P2">CSS là gì</h2>
-    <p>
-        CSS (Cascading Style Sheets) là ngôn ngữ định dạng đặc biệt
-        được dùng để mô tả cách thể hiện của văn bản HTML trong trang web.
-    </p>
-
-    <p>
-        Mỗi định dạng CSS đều có dạng chuẩn là bộ chọn {thuộc tính : giá trị;}.
-    </p>
-
-    <p class="img">Xem logo của CSS.</p>
-    <img src="css3.png" alt="Logo CSS">
-
-</body>
-</html><!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <title>Giới thiệu HTML và CSS</title>
-
-    <!-- CSS nội bộ cho Nhiệm vụ 2 -->
-    <style>
-        /* Tiêu đề chính */
-        h1 {
-            color: red;
-            text-align: center;
-        }
-
-        /* Tiêu đề nhỏ */
         h2 {
             color: blue;
             font-weight: bold;
         }
-
-        /* Phần liên kết trên */
         nav {
             text-align: right;
         }
@@ -125,18 +29,12 @@
         nav a:hover {
             color: red;
         }
-
-        /* Đoạn đầu tiên dưới tiêu đề */
         h2 + p {
             color: red;
         }
-
-        /* Ẩn logo ban đầu */
         img {
-            display: none;
+            display: none; width: 60px; height:60px;
         }
-
-        /* Nhấn vào dòng "Xem logo" thì hiện ảnh */
         .xemlogo:active + img {
             display: block;
         }
@@ -144,55 +42,39 @@
 </head>
 
 <body>
-
-    <!-- Tiêu đề chính -->
     <h1>Giới thiệu HTML và CSS</h1>
-
-    <!-- Liên kết -->
     <nav>
         <ul>
             <li><a href="#html">Giới thiệu HTML</a></li>
             <li><a href="#css">Giới thiệu CSS</a></li>
         </ul>
     </nav>
-
-    <!-- HTML -->
     <h2 id="html">HTML là gì</h2>
-
     <p>
         <b>HTML</b> – tên viết tắt của HyperText Markup Language, ngôn ngữ đánh dấu siêu văn bản,
         là ngôn ngữ đặc biệt dùng để thiết kế nội dung các trang web và được thể hiện bằng trình duyệt.
     </p>
-
     <p>
         Cấu trúc mỗi tệp HTML là một cấu trúc dạng cây của các phần tử HTML.
     </p>
-
     <p class="xemlogo">Xem logo của HTML.</p>
     <img src="html5.png" alt="Logo HTML">
-
     <p>
         Link xem thêm chi tiết về HTML tại đây
         (https://en.wikipedia.org/wiki/HTML).
     </p>
-
     <p>
         Link xem và tự học HTML tại đây
         (https://www.w3schools.com/html/default.asp).
     </p>
-
-    <!-- CSS -->
     <h2 id="css">CSS là gì</h2>
-
     <p>
         CSS (Cascading Style Sheets) là ngôn ngữ định dạng đặc biệt được dùng
         để mô tả cách thể hiện của văn bản HTML trong trang web.
     </p>
-
     <p>
         Mỗi định dạng CSS đều có dạng chuẩn là bộ chọn {thuộc tính : giá trị;}.
     </p>
-
     <p class="xemlogo">Xem logo của CSS.</p>
     <img src="css3.png" alt="Logo CSS">
 
@@ -208,4 +90,3 @@
 
 </body>
 </html>
-
